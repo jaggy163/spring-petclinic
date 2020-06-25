@@ -32,7 +32,7 @@
     <spring-format.version>0.0.21</spring-format.version>
 
     <!-- Build number to be forwarded from Jenkins while building-->
-    <build.number>-1</build.number>
+    <build.number>SNAPSHOT</build.number>
   </properties>
 
   <dependencies>
@@ -292,7 +292,9 @@
               <addDefaultSpecificationEntries>true</addDefaultSpecificationEntries>
             </manifest>
             <manifestEntries>
-              <Build-Number>${build.number}</Build-Number>
+              <Specification-Title>${project.name}</Specification-Title>
+              <Specification-Version>${project.version}</Specification-Version>
+              <Implementation-Version>${build.number}</Implementation-Version>
             </manifestEntries>
           </archive>
         </configuration>
