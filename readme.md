@@ -138,3 +138,4 @@ The Spring PetClinic sample application is released under version 2.0 of the [Ap
 [spring-petclinic-rest]: https://github.com/spring-petclinic/spring-petclinic-rest
 
 # Anton Mantrov commits
+* change for commit
